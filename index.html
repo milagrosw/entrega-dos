@@ -4,38 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mv</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <title>mv</title>
 </head>
 <body>
     <header>
-        <img src="./images/logo.jpeg" alt="">
-        <form action="">
-            <input type="search">
-            <select name="" id="">
-                <option value="">Remeras</option>
-                <option value="">Pantalones</option>
-                <option value="">Calzado</option>
-                <option value="">Accesorios</option>
-            </select>
-        </form>
-        <h1>MARCELLI VANINA</h1>
-        <p>Estilo Original</p>
-        <nav>
-            <ul>
-                <li> <a href="./pages/remeras.html">Remeras</a></li>
-                <li> <a href="./pages/pantalones.html">Pantalones</a></li>
-                <li> <a href="./pages/calzado.html">Calzado</a></li>
-                <li> <a href="./pages/accedorios.html">Accesorios</a></li>
-            </ul>
-        </nav>
+        
+
+<nav class="navbar bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.jpeg" alt="Bootstrap" width="30" height="24">
+      </a>
+    </div>
+  </nav>
+  
+    
+
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+         <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+         </form>
+        </div>
+       </nav>
+
+       
+
+<nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Nuestros productos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="Nuestros productos" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="Nuestros productos" id="offcanvasNavbarLabel">Nuestros productos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            
+            <li class="nav-item">
+              <a href="./pages/accedorios.html">Accesorios</a>
+              <a href="./pages/calzado.html">Calzado</a>
+              <a href="./pages/pantalones.html">Pantalones</a>
+              <a href="./pages/remeras.html">Remeras</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+        
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  
     </header>
+   
     <main>
+        
+    <h1>MARCELLI VANINA</h1>
+    <p>Estilo Original</p>
+    
+
+<nav class="navbar bg-body-tertiary">
+    <form class="container-fluid justify-content-start">
+      <button class="btn btn-outline-success me-2" type="button">Remeras</button>
+      <button class="btn btn-outline-success me-2" type="button">Pantalones</button>
+      <button class="btn btn-outline-success me-2" type="button">Calzado</button>
+      <button class="btn btn-outline-success me-2" type="button">Accesorios</button>
+      
+    </form>
+  </nav>
+  
+  
         <section>
             <h2>Productos Destacados</h2>
-            <img src="./images/remera.nike.webp" alt="">
-            <a href="./pages/remeranike.html">Remera Nike</a>
-            <P>$0</P>
+            
+
+<div id="carousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/remera.nike.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/pantalon-adidas.jpg" class="d-block w-100" alt="...">
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  
             
         </section>
     </main>
@@ -50,6 +125,6 @@
             
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

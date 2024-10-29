@@ -1,3 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 ul{
     color: lightblue;
 }
@@ -27,3 +39,6 @@ h2{
     text-decoration: underline;
 }
 
+p{
+    text-align: center;
+}
