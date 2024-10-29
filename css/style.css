@@ -1,0 +1,29 @@
+ul{
+    color: lightblue;
+}
+
+
+html{
+    background-color: black;
+}
+
+body{
+    color: white;
+}
+
+title{
+    color: lightblue;
+}
+
+h1{
+    font-style: helvetica; text-transform: uppercase;
+}
+
+body header p {
+    font-style: italic;
+}
+
+h2{
+    text-decoration: underline;
+}
+
