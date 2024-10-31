@@ -1,3 +1,33 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2em;
+    color: white;
+}
+
+p {
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    color: whitesmoke;
+}
+
+nav {
+    min-width: 576;
+    max-width: 1200;
+}
+
+
 div{
     width: 200px;
     height: 200px;
@@ -19,17 +49,8 @@ html{
     background-color: black;
 }
 
-body{
-    color: white;
-}
 
-title{
-    color: lightblue;
-}
 
-h1{
-    font-style: helvetica; text-transform: uppercase;
-}
 
 body header p {
     font-style: italic;
