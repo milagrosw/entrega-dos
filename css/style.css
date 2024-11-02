@@ -27,39 +27,16 @@ nav {
     max-width: 1200;
 }
 
-
-div{
-    width: 200px;
-    height: 200px;
-}
-
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-ul{
-    color: lightblue;
-}
-
-
-html{
-    background-color: black;
-}
-
-
-
-
-body header p {
-    font-style: italic;
-}
-
 h2{
-    text-decoration: underline;
+    padding-top: 2em;
 }
 
-p{
-    text-align: center;
+div section{
+    padding-top: 2em;
 }
+
+footer{
+    padding-top: 2em;
+}
+
+
