@@ -39,4 +39,14 @@ footer{
     padding-top: 2em;
 }
 
+footer (min-width: 1200px) {
+    padding-top: 2em;
+    margin-left: 35rem;
+    margin-right: 25rem;
+}
 
+
+section (min-width: 1200px) {
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
