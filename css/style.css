@@ -39,14 +39,57 @@ footer{
     padding-top: 2em;
 }
 
-footer (min-width: 1200px) {
-    margin-left : 35rem;
-    margin-right: 25rem;
+@media (max-width: 1200px) {
+    .footer{
+    margin-left : 50%;
+    
+}
 }
 
 
-section  (min-width: 1200px) {
+@media  (min-width: 1200px) {
+    .section{
     margin-left: 25rem;
     margin-right : 25rem;
+}
+}
+@media (min-width: 1200px){
+    .navbar{
+        display: flex;
+        width: 100%;
+    }
+}
+
+
+.card{
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+.section{
+    padding-left: 25%;
+    padding-right: 25%;
+    justify-content: center;
+}
+
+.container-fluid{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.border-box{
+    height: 500px;
+    width: 500px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+
+}
+
+h5{
+    color: white;
 }
 
