@@ -92,5 +92,9 @@ footer{
 .card{
     background-color: black;
     border-color: beige;
-    
+
+}
+
+nav{
+    text-align: center;
 }
