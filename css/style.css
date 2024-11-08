@@ -66,6 +66,7 @@ footer{
 .container-fluid{
     padding-left: 2em;
     padding-right: 2em;
+    text-align: center;
 }
 
 .border-box{
@@ -98,3 +99,5 @@ footer{
 nav{
     text-align: center;
 }
+
+
