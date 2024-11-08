@@ -39,24 +39,6 @@ footer{
     padding-top: 2em;
 }
 
-@media (max-width: 1200px) {
-    .footer{
-    margin-left : 50%;
-    
-}
-}
-
-
-@media  (min-width: 1200px) {
-    .section{
-    margin-left: 25rem;
-    margin-right : 25rem;
-}
-}
-
-
-
-
 .section{
     padding-left: 25%;
     padding-right: 25%;
@@ -100,4 +82,14 @@ nav{
     text-align: center;
 }
 
+@media (max-width:768px){
+    .navbar{
+        font-size: small;
 
+    }
+}
+@media (max-width:1400px){
+    .navbar {
+        font-size: large;
+    }
+}
