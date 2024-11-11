@@ -6,7 +6,7 @@ header {
     background-color: black;
 }
 
-h1{
+h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
     font-weight: bolder;
@@ -27,69 +27,110 @@ nav {
     max-width: 1200;
 }
 
-h2{
+
+h2 {
     padding-top: 2em;
 }
 
-div section{
+div section {
     padding-top: 2em;
 }
 
-footer{
+footer {
     padding-top: 2em;
 }
 
-.section{
+.section {
     padding-left: 25%;
     padding-right: 25%;
     justify-content: center;
 }
 
-.container-fluid{
+.container-fluid {
     padding-left: 2em;
     padding-right: 2em;
     text-align: center;
 }
 
-.border-box{
+.border-box {
     height: 500px;
     width: 500px;
 }
 
-h2{
+h2 {
     text-align: center;
     color: white;
     text-decoration: underline;
 
 }
 
-h5{
+h5 {
     color: white;
 }
 
-footer{
+footer {
     padding-left: 35%;
     padding-right: 35%;
 }
 
-.card{
+.card {
     background-color: black;
     border-color: beige;
 
 }
 
-nav{
+nav {
     text-align: center;
 }
 
-@media (max-width:768px){
-    .navbar{
+@media (max-width:768px) {
+    .navbar {
         font-size: small;
 
     }
 }
-@media (max-width:1400px){
+
+@media (max-width:1400px) {
     .navbar {
         font-size: large;
+    }
+}
+
+
+.container {
+    background-color: black;
+    padding: 3px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.box1, .box2, .box3, .box4{
+    border: 3px solid rgb(46, 100, 70);
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+    height: 70px;
+    align-content: center;
+    
+
+}
+
+@media (max-width:600px){
+    .box1, .box2, .box3, .box4{
+        width: 100%
+    }
+}
+
+@media (max-width:1024px){
+    .box1, .box2, .box3, .box4{
+        width: 40%;
+    }
+
+}
+
+@media(min-width:1024px){
+    .dropdown{
+        justify-content: end;
     }
 }
