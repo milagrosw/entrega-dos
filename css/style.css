@@ -1,136 +1,77 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 
 header {
-    background-color: black;
+  background-color: black;
 }
 
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-large;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 2em;
-    color: white;
+main nav {
+  min-width: 576;
+  max-width: 1200;
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
 }
-
-p {
-    font-family: cursive;
-    font-size: larger;
-    text-align: center;
-    color: whitesmoke;
+main h1 {
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 2em;
+  color: white;
 }
-
-nav {
-    min-width: 576;
-    max-width: 1200;
+main p {
+  font-family: cursive;
+  font-size: larger;
+  text-align: center;
+  color: whitesmoke;
 }
-
-
-h2 {
-    padding-top: 2em;
+main div {
+  background-color: black;
+  padding: 3px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
 }
-
-div section {
-    padding-top: 2em;
+main .box1, main .box2, main .box3, main .box4 {
+  border: 3px solid rgb(46, 100, 70);
+  font-size: 15px;
+  text-align: center;
+  margin: 30px;
+  height: 70px;
+  align-content: center;
 }
-
-footer {
-    padding-top: 2em;
+main section {
+  padding-left: 25%;
+  padding-right: 25%;
+  justify-content: center;
 }
-
-.section {
-    padding-left: 25%;
-    padding-right: 25%;
-    justify-content: center;
+main section h2 {
+  padding-top: 2em;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
 }
-
-.container-fluid {
-    padding-left: 2em;
-    padding-right: 2em;
-    text-align: center;
+main section .carousel {
+  height: 500px;
+  width: 500px;
 }
-
-.border-box {
-    height: 500px;
-    width: 500px;
-}
-
-h2 {
-    text-align: center;
-    color: white;
-    text-decoration: underline;
-
-}
-
-h5 {
-    color: white;
+main section div {
+  padding-top: 2em;
 }
 
 footer {
-    padding-left: 35%;
-    padding-right: 35%;
+  padding-top: 2rem;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+footer .card {
+  background-color: black;
+  border-color: beige;
+}
+footer h5 {
+  color: white;
 }
 
-.card {
-    background-color: black;
-    border-color: beige;
-
-}
-
-nav {
-    text-align: center;
-}
-
-@media (max-width:768px) {
-    .navbar {
-        font-size: small;
-
-    }
-}
-
-@media (max-width:1400px) {
-    .navbar {
-        font-size: large;
-    }
-}
-
-
-.container {
-    background-color: black;
-    padding: 3px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: stretch;
-}
-
-.box1, .box2, .box3, .box4{
-    border: 3px solid rgb(46, 100, 70);
-    font-size: 15px;
-    text-align: center;
-    margin: 30px;
-    height: 70px;
-    align-content: center;
-    
-
-}
-
-@media (max-width:600px){
-    .box1, .box2, .box3, .box4{
-        width: 100%
-    }
-}
-
-@media (max-width:1024px){
-    .box1, .box2, .box3, .box4{
-        width: 40%;
-    }
-
-}
-
-@media(min-width:1024px){
-    .dropdown{
-        justify-content: end;
-    }
-}
+/*# sourceMappingURL=style.css.map */
