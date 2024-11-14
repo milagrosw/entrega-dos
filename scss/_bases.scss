@@ -1,0 +1,26 @@
+@mixin MQ-small() {
+    @media (max-width:768px){
+        @content
+    }
+}
+;
+@mixin MQ-large(){
+    @media (max-width:1400px) {
+        @content
+    }
+
+}
+;
+@mixin MQ-medium(){
+    @media (max-width:1024px){
+        @content
+    }
+
+}
+
+
+
+body {
+    background-color: black;
+}
+
