@@ -1,0 +1,6 @@
+[1114/200133.922:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[1114/200134.022:ERROR:main_dll_loader_win.cc(140)] Failed to load Chrome DLL from C:\Program Files (x86)\Eastness\Application\57.0.2987.98\chrome.dll: No se puede encontrar el módulo especificado. (0x7E)
+[1114/200134.078:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[1114/200137.280:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[1114/200137.294:ERROR:main_dll_loader_win.cc(140)] Failed to load Chrome DLL from C:\Program Files (x86)\Eastness\Application\57.0.2987.98\chrome.dll: No se puede encontrar el módulo especificado. (0x7E)
+[1114/200137.338:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
