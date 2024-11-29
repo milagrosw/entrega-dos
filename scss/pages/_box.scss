@@ -1,17 +1,21 @@
 .box1,
-    .box2,
-    .box3,
-    .box4 {
-        border: 3px solid rgb(46, 100, 70);
-        font-size: 15px;
-        text-align: center;
-        margin: 30px;
-        height: 70px;
-        align-content: center;
-        @include MQ-small(){
-            width: 100%
-        }
-        @include MQ-medium(){
-            width: 40%
-        }
+.box2,
+.box3,
+.box4 {
+    border: 3px solid rgb(46, 100, 70);
+    font-size: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    height: 70px;
+
+
+    @include MQ-small() {
+        width: 100%
     }
+
+    @include MQ-medium() {
+        width: 40%
+    }
+}
