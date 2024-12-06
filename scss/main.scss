@@ -3,14 +3,14 @@
 @import "../pages/pantalones.html";
 @import "../pages/remeras.html";
 
-@import "./bases";
+@import "../scss/bases";
 
-@import "./components/footer";
-@import "./components/heather";
-@import "./components/section";
-@import "./components/title";
+@import "../scss/pages/box";
+@import "../scss/pages/card";
+@import "../scss/pages/carousel";
+@import "../scss/pages/nav";
 
-@import "./pages/box";
-@import "./pages/card";
-@import "./pages/carousel";
-@import "./pages/nav"
+@import "../scss/components/footer";
+@import "../scss/components/heather";
+@import "../scss/components/section";
+@import "../scss/components/title";
