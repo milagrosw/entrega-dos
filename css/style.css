@@ -1,9 +1,9 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "../pages/accedorios.html";
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\main.scss 1:9  root stylesheet */
+/* Error: expected more input.
+ *    ,
+ * 13 | @import
+ *    |        ^
+ *    '
+ *   scss\main.scss 13:8  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"../pages/accedorios.html\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\main.scss 1:9  root stylesheet";
+  content: "Error: expected more input.\a    \2577 \a 13 \2502  @import\a    \2502         ^\a    \2575 \a   scss\\main.scss 13:8  root stylesheet";
 }

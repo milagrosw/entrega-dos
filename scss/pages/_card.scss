@@ -1,4 +1,22 @@
-.card {
+footer{
+
+    card{
+
+    
     background-color: black;
     border-color: beige;
+    width: 18rem;
+    text-align: center;
+    }
+
+    
+}
+
+section{
+    card{
+        svg{
+            width: 30;
+            height: 30;
+        }
+    }
 }

@@ -3,13 +3,18 @@ footer {
     padding-left: 35%;
     padding-right: 35%;
 
+    
+
 
 
 
 
     div {
+
+        background-color: black;
+
         h3 {
-            color: white;
+            color: $primary-color
         }
 
         a:hover {
