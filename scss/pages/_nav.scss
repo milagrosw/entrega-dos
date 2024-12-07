@@ -1,9 +1,11 @@
-nav {
+main{
+    nav {
     min-width: 576;
     max-width: 1200;
     text-align: center;
     padding-left: 2em;
     padding-right: 2em;
+    
     @include MQ-small(){
         font-size: small
     }
@@ -11,4 +13,5 @@ nav {
         font-size: large;
     }
 
+}
 }

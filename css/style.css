@@ -1,9 +1,13 @@
-/* Error: expected more input.
+/* Error: Undefined mixin.
  *    ,
- * 13 | @import
- *    |        ^
+ * 15 | /     @include MQ-small() {
+ * 16 | |         flex-direction: row-reverse;
+ * 17 | |         width: 100%
+ * 18 | |         
+ * 19 | \     }
  *    '
- *   scss\main.scss 13:8  root stylesheet */
+ *   scss\pages\_box.scss 15:5  @use
+ *   scss\main.scss 2:1         root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +17,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected more input.\a    \2577 \a 13 \2502  @import\a    \2502         ^\a    \2575 \a   scss\\main.scss 13:8  root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 15 \2502  \250c      @include MQ-small() {\a 16 \2502  \2502          flex-direction: row-reverse;\a 17 \2502  \2502          width: 100%\a 18 \2502  \2502          \a 19 \2502  \2514      }\a    \2575 \a   scss\\pages\\_box.scss 15:5  @use\a   scss\\main.scss 2:1         root stylesheet";
 }

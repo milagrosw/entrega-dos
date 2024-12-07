@@ -4,17 +4,16 @@
 .box4 {
     border: 3px solid rgb(46, 100, 70);
     font-size: 15px;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 30px;
     height: 70px;
-    text-decoration: $primary-color;
     
 
 
     @include MQ-small() {
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
         width: 100%
         
     }

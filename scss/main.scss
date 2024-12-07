@@ -1,16 +1,13 @@
-@import "./bases";
-
-@import "../scss/pages/box";
-@import "../scss/pages/card";
-@import "../scss/pages/carousel";
-@import "../scss/pages/nav";
-
-@import "../scss/components/footer";
-@import "../scss/components/heather";
-@import "../scss/components/section";
-@import "../scss/components/title";
-
-@import "../pages/accedorios.html";
-@import "../pages/calzado.html";
-@import "../pages/pantalones.html";
-@import "../pages/remeras.html";
+@use './bases';
+@use './pages/box';
+@use './pages/card';
+@use './pages/carousel';
+@use './pages/nav';
+@use "../scss/components/footer";
+@use "../scss/components/heather";
+@use "../scss/components/section";
+@use "../scss/components/title";
+@use "../pages/accedorios.html";
+@use "../pages/calzado.html";
+@use "../pages/pantalones.html";
+@use "../pages/remeras.html";
