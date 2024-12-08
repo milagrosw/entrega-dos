@@ -1,13 +1,22 @@
 @use './bases';
+
 @use './pages/box';
 @use './pages/card';
 @use './pages/carousel';
 @use './pages/nav';
+
 @use "../scss/components/footer";
 @use "../scss/components/heather";
 @use "../scss/components/section";
 @use "../scss/components/title";
+
 @use "../pages/accedorios.html";
 @use "../pages/calzado.html";
 @use "../pages/pantalones.html";
 @use "../pages/remeras.html";
+
+@use '../index.html';
+@use '../pages/accedorios.html';
+@use '../pages/calzado.html';
+@use '../pages/pantalones.html';
+@use '../pages/remeras.html';
